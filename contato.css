@@ -1,0 +1,415 @@
+header {
+
+    background-color: black;
+    height: 225px;
+
+}
+
+h1 {
+
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    
+
+}
+
+.caixa {
+
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+    
+
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-radius: 20px;
+    
+    
+}
+
+
+nav ul {
+
+    list-style: none;
+   
+}
+
+
+nav ul li {
+
+    display: inline-block;
+    
+   
+}
+
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 15px 30px;
+    transition: transform 0.3s ease, font-size 0.3s ease, background-color 0.3s;
+    display: inline-block;
+
+}
+
+nav ul li a:hover{
+
+    background: linear-gradient(120deg, #D10000, #8A0000, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    border-radius: 20px;
+    transform: scale(1.5);
+
+}
+
+body{
+
+    background-color: firebrick;
+
+}
+
+
+.rodapecontatos {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    height: 220px;
+    margin-top: 100vh;
+    height: 250px;
+  
+}
+
+.textorodapecontatos{
+
+    margin-top: 30px;
+    font-size: 10px;
+
+}
+
+.imgrodapecontatos{
+
+    
+    height: 200px;
+    width: 200px;
+
+}
+
+
+main{
+
+    margin-top: 40px;
+
+
+}
+
+.titulocontatos{
+
+    color: white;
+    text-align: center;
+    padding: 0 0 25px 0;
+    font-size: 20px;
+
+}
+
+
+.textocontato{
+
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+    padding: 15px 0 0 0;
+    font-size: 25px;
+
+
+}
+
+.informacoes{
+
+    color: black;
+    padding-left: 57px;
+
+    
+
+}
+
+.informacoes:hover{
+
+    font-size: 26.2px;
+
+}
+
+
+.conteinerexplicacoes{
+
+    padding-top: 60px ;
+
+}
+
+.conteinerinformacoescontato{
+
+
+    padding-top: 15px; ;
+    border: 2px solid #655902;
+    width: 1000px;
+    height: 600px;
+    margin: 20px auto;
+
+}
+
+.comopreencher{
+
+    
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+.explicacoes{
+
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+.explicacaonomeesobrenome, .explicacaotel, .explicacaoemail, .explicacaomensagem, .explicacaoformadepag {
+
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.explicacaotel, .explicacaomensagem{
+
+    margin-left: 20px;
+
+
+}
+
+
+
+
+h4{
+
+    text-align: center;
+    padding: 0 0 9px 0 ;
+    font-size: 20px;
+    color: white;
+
+}
+
+h4:hover{
+
+    font-size: 21.5px;
+    color: #c5ae02;
+    margin-left: 5px;
+
+}
+
+
+.icone-nomeesobrenome{
+
+    padding-right: 5px;
+
+
+}
+
+
+.icone-tel{
+
+    padding-right: 5px;
+
+}
+
+
+
+.icone-email{
+
+    padding-right: 5px;
+
+}
+
+
+
+.icone-mensagem{
+
+    padding-right: 5px;
+    
+}
+
+.icon-formadecontato{
+
+    padding-right: 5px;
+
+}
+
+
+
+.textoexplicacaocont{
+
+    text-align: justify;
+    color: white;
+}
+
+
+.abaixooformalrio{
+
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.abaixonossoformulario-span{
+
+    font-weight: bold;
+    color: #c5ae02;
+    text-decoration: underline;
+
+}
+
+
+.formulario{
+
+    margin-top: 40px;
+
+}
+
+form{
+
+    margin: 40px 0;
+    padding-left: 30px;
+    
+
+}
+
+form label{
+
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin: 0 0 20px 0;
+    
+
+}
+
+.input-padrao{
+
+    display: block;
+    margin: 0 0 15px 0;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 5px;
+   border: none;
+   cursor: pointer; 
+
+}
+
+.input-padrao:hover{
+
+    border: 2px dotted;
+    border-color: #e8ce0c;
+    
+}
+
+.text-comocontato, .text-horario{
+
+    color: white;
+    padding: 30px 0;
+    font-size: 20px;
+
+}
+
+select{
+
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.checkbox-form{
+
+    margin: 75px 80px 80px 0 ;
+    
+    
+
+}
+
+.enviar{
+
+    width: 40%;
+    padding: 10px 0;
+    background: #bfa902;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 18px ;
+    border: none;
+    transition: 0.5s background-color, 1.2s transform;
+    cursor: pointer;
+
+}
+
+.enviar:hover{
+
+    color: rgb(172, 172, 172);
+    background: #655902;
+    transform: scale(1.1);
+    
+}
+
+
+table{
+
+    margin: 20px 40px;
+
+}
+
+thead{
+
+  background: #655902;
+  color: white; 
+  font-weight: bold; 
+
+}
+
+td, th{
+
+    border: 1px solid white;
+    background: black;
+    color: white;
+    padding: 5px 8px;
+    
+
+}
+
+.text-table{
+
+    color: white;
+    padding: 20px 0 20px 30px;
+    font-size: 20px;
+
+}
+
+.ce{
+
+    display: block;
+    margin-top: 40px;
+    
+}

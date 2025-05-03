@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="icon" type="png" href="furacao2.png">
+</head>
+<body>
+    <header>
+
+        <nav>
+            <h1><img src="furacao.jpg" alt="Logo do furacão"></h1>
+            
+            <div class="caixa">
+                
+                    
+                        <ul>
+
+                            <li><a href="index.html" target="_blank">Home</a></li>
+                            <li><a href="produtos.html" target="_blank">Produtos</a></li>
+                            <li><a href="saibamais.html" target="_blank">Saiba mais</a></li>
+                            
+                           
+                
+            </div>
+         </nav>
+    </header>
+
+
+    <main>
+
+        <h2 class="titulocontatos">Bem vindo a nossa página de contatos!</h2>
+
+        <p class="textocontato">Abaixo, complete as<br> <span class="informacoes">informações pedidas!</span></p>
+
+        <section class="conteinerexplicacoes">
+
+            <section class="conteinerinformacoescontato">
+
+                 <h3 class="comopreencher">Como preencher?</h3>
+
+                        <section class="explicacoes"> 
+
+
+                            <div class="explicacaonomeesobrenome">
+                                <h4><i class="fa-solid fa-circle-user icone-nomeesobrenome"></i>Nome e sobrenome</h4>
+                                <p class="textoexplicacaocont">Por favor, insira seu nome completo, incluindo sobrenome.<br> Isso nos ajuda a identificar você com mais facilidade e evita<br> confusões em nosso sistema.<br> Com essas informações, conseguimos prestar um atendimento<br> mais personalizado e eficiente.</p>
+                            </div>   
+                            
+                            <div class="explicacaotel">
+                                <h4><i class="fa-solid fa-phone icone-tel"></i>Telefone</h4>
+                                <p class="textoexplicacaocont">Informe um número de telefone válido, com DDD.<br> Dessa forma, conseguimos entrar em contato rapidamente <br> com você, caso seja necessário tirar dúvidas, confirmar <br>informações ou responder à sua solicitação com mais agilidade.</p>
+                                </div>    
+
+                            <div class="explicacaoemail">
+                                <h4><i class="fa-solid fa-envelope icone-email"></i>Email</h4>
+                                <p class="textoexplicacaocont">
+                                Coloque um endereço de email que você utilize com frequência. <br>Enviaremos por lá informações importantes, como promoções, <br>novidades, datas de eventos, ou retorno sobre sua mensagem. <br>Fique tranquilo: não enviamos spam.
+                            </p>    
+                            </div>    
+
+                            <div class="explicacaomensagem">
+                                <h4><i class="fa-solid fa-comment icone-mensagem"></i>Mensagem</h4>
+                                <p class="textoexplicacaocont">Escreva aqui a sua dúvida, sugestão, elogio ou qualquer <br>outro recado que queira nos dar.<br> Essa mensagem é essencial para entendermos como podemos <br>te ajudar melhor ou melhorar nossos serviços e atendimento.</p>
+                            </div>    
+
+                            <div class="explicacaoformadepag">
+                                <h4><i class="fa-solid fa-magnifying-glass icon-formadecontato"></i>Forma de contato</h4>
+                                <p class="textoexplicacaocont">Escolha qual é o seu meio de contato preferido:<br> telefone, email, WhatsApp, entre outros.<br> Assim, garantimos que nossa resposta chegue até você <br>da forma mais conveniente e no canal que você costuma utilizar.</p>
+                            </div>
+
+                        </section>
+
+
+            </section>
+        </section>
+
+
+        <section class="conteinersupremo-formulario">
+
+            <h5 class="abaixooformalrio">Abaixo, faça o seu formulário para melhor interação com o <span class="abaixonossoformulario-span">nosso site e com nossa loja.</span></h5>
+
+            <div class="botaojs">
+                <button onclick=" formulario()" class="ce">clique nessa porra aqui</button>
+                </div>  
+
+            <section class="formulário">
+
+                <form>
+
+                    <label for="nommeesobrenome-form">Nome e sobrenome</label>
+                    <input type="text" id="nommeesobrenome-form" class="input-padrao" required>
+
+                    <label for="email-form">Email</label>
+                    <input type="email" id="email-form" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                    <label for="tel-form">Telefone</label>
+                    <input type="tel" id="tel-form" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
+
+                    <label for="mensagem-form">Mensagem</label>
+                    <textarea name="mensagem-form" cols="70" rows="10" id="mensagem-form" class="input-padrao" required></textarea>
+                    
+                    
+                    <fieldset class="comopreferenossocont">
+
+                       <legend class="text-comocontato">Como prefere o nosso contato?</legend>
+
+                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" >Email</label>
+                        
+                    
+                        <label for="radio-tel"><input type="radio" name="contato" value="tel" id="radio-tel">
+                        Telefone</label>
+                        
+                        
+                        <label for="radio-whats"> <input type="radio" name="contato" value="whatsapp" id="radio-whats" checked>
+                        Whatsapp</label>
+                        
+
+                    </fieldset>
+
+                    <fieldset class="qualhorarioprefereseratend">
+
+                        <legend class="text-horario">Qual horário prefere ser atendido?</legend>
+
+                        <select> 
+
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+
+                        </select>
+
+                    </fieldset>
+
+                    <label for="checkbox-form" class="checkbox-form"><input type="checkbox" id="checkbox-form" required>
+                    Deseja receber as novidades pelo seu e-mail?</label>
+
+                    <input type="submit" value="Enviar formulário" class="enviar">
+
+                </form>
+
+               
+
+                <p class="text-table">Horário de funcionamento da loja.</p>
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Dia</th>
+                            <th>Horário</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+                        <tr>
+
+                            <td>Segunda</td>
+                            <td>Das 07h às 22h</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>Quarta</td>
+                            <td>Das 07h às 22h</td>
+
+                        </tr>
+                    </tbody>
+
+                    <tr>
+
+                        <td>Sexta</td>
+                        <td>Das 07h às 22h</td>
+
+                    </tr>
+
+                </table>
+
+
+        
+            </section>
+            
+        </section>
+
+
+        
+
+      
+
+    </main>
+
+
+    <footer class="rodapecontatos">
+
+        <img src="furacao.jpg" alt="Logo do furacão" class="imgrodapecontatos">
+           
+            <div class="rodapetextocontatos">
+
+                <p class="textorodapecontatos">&copy; 2025 Meu site - Politica de privacidade - Termos de uso</p>
+
+            </div>
+
+        </footer>
+      
+    </footer>
+
+    
+</body>
+
+<script src="index.js"></script>
+
+</html>

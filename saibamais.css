@@ -1,0 +1,195 @@
+header {
+
+    background-color: black;
+    height: 220px;
+    
+
+}
+
+h1 {
+
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+}
+
+.imagem{
+
+    height: 180px;
+    width: 180px;
+}
+
+.caixa {
+
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+    
+
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-radius: 20px;
+    
+    
+    
+}
+
+
+nav ul {
+
+    list-style: none;
+   
+}
+
+
+nav ul li {
+
+    display: inline-block;
+    
+   
+}
+
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 15px 30px;
+    transition: transform 0.3s ease, font-size 0.3s ease, background-color 0.3s;
+    display: inline-block;
+    padding: 15px 30px;
+    transition: transform 0.3s ease, font-size 0.3s ease, background-color 0.3s;
+    display: inline-block;
+    margin: 0 0 25px 0;
+
+}
+
+nav ul li a:hover{
+
+    background: linear-gradient(120deg, #D10000, #8A0000, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    border-radius: 20px;
+    transform: scale(1.5);
+
+}
+
+body{
+
+    background-color: firebrick;
+
+}
+
+
+.rodapesaibamais {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    width: 100%;
+    position: relative;
+    margin-top: 100vh;
+    height: 250px;
+  
+}
+
+
+.imgrodape{
+
+
+    height: 200px;
+    width: 200px;
+
+}
+
+.textorodapesaibamais{
+
+    margin-top: 30px;
+    font-size: 15px;
+
+}
+
+main{
+
+    margin-top: 60px;
+
+}
+
+.titulosaibamais{
+
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    
+
+}
+
+.furacao-span{
+
+    color: #000000;
+    text-decoration: underline;
+
+}
+
+.mensagemaocliente, .mensagemdoprogamadoraocliente, .mensagemdoprogamadoraoclientemaiszueira{
+
+    width: 970px;
+    height: 200px;
+    border: 3px solid #655902;
+    border-radius: 5px;
+    margin: 40px auto;
+
+
+}
+
+.prezado{
+
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+.paragrafo-pricipalsaibamais{
+
+    padding: 0 30px 0 30px;
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+
+}
+
+
+.imgprogamador{
+
+    margin-top: 70px;
+    margin-left: 30%;
+    width: 600px;
+    height: 400px;
+
+
+}
+
+.obs{
+
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase; 
+
+}
