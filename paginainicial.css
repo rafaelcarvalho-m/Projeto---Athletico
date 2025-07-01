@@ -1,10 +1,135 @@
+/*pagina de login html*/
+
+.corpodosite-login{
+
+    background-color: #640903;
+
+}
+
+.titulo-login{
+
+    height: 80px;
+    
+
+}
+
+.nomedoathletico{
+
+    position: absolute;
+    right: 6%;
+    top: 18%;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+ 
+}
+
+.ano{
+
+    color: white;
+
+}
+
+
+
+.imagem-logo{
+
+    width: 200px;
+    margin-right: 350px;
+
+}
+
+.login{
+
+    position: absolute;
+    right: 33%;
+    top: 10%;
+    height: 500px;
+    width: 450px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.esqueceuasenha, .japossuilogin, .google, .outlook, .facebook{
+
+    display: block;
+    margin-left: 90px;
+
+}
+
+.email, .senha, .esqueceuasenha, .japossuilogin{
+
+    margin-bottom: 20px;
+
+}
+
+.google, .outlook, .facebook{
+
+    margin: 0 0 5px 110px;
+
+}
+
+.google{
+
+    margin-top: 50px;
+
+}
+
+.email, .senha{
+
+    display: block;
+    margin: 0 0 10px 50px;
+
+
+}
+
+
+.email{
+
+    margin-top: 120px;
+    padding: 5px;
+    width: 70%;
+
+}
+
+.senha{
+
+    padding: 5px;
+    width: 70%;
+
+}
+
+
+.japossuilogin{
+
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: x-small;
+    margin-left: 250px;
+}
+
+.japossuilogin:hover{
+
+    text-decoration: underline;
+
+}
+
+
+
+
+/*pagina inicial html*/
+
 header {
 
     background-color: black;
 
 }
 
-h1 {
+.logodosite {
 
     height: 250px;
     width: 250px;
@@ -566,15 +691,6 @@ td, th{
     font-size: 20px;
 
 }
-
-.ce{
-
-    display: block;
-    margin-top: 40px;
-    
-}
-
-
 
 
 
