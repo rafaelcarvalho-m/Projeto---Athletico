@@ -2,7 +2,7 @@
 
 .corpodosite-login{
 
-    background-color: #640903;
+    background-color: #360400;
 
 }
 
@@ -44,7 +44,7 @@
 
     position: absolute;
     right: 33%;
-    top: 10%;
+    top: 6.5%;
     height: 500px;
     width: 450px;
     border: 2px solid white;
@@ -53,7 +53,7 @@
     
 }
 
-.esqueceuasenha, .japossuilogin, .google, .outlook, .facebook{
+.esqueceuasenha, .japossuilogin{
 
     display: block;
     margin-left: 90px;
@@ -66,39 +66,22 @@
 
 }
 
-.google, .outlook, .facebook{
-
-    margin: 0 0 5px 110px;
-
-}
-
-.google{
-
-    margin-top: 50px;
-
-}
 
 .email, .senha{
 
     display: block;
-    margin: 0 0 10px 50px;
-
-
+    margin: 0 0 10px 60px;
+    border-radius: 10px;
+    border: none;
+    width: 75%;
+    padding: 12px;
 }
 
 
 .email{
 
-    margin-top: 120px;
-    padding: 5px;
-    width: 70%;
-
-}
-
-.senha{
-
-    padding: 5px;
-    width: 70%;
+    margin-top: 110px;
+    width: 75%;
 
 }
 
@@ -109,7 +92,7 @@
     border: none;
     color: white;
     font-size: x-small;
-    margin-left: 250px;
+    margin-left: 300px;
 }
 
 .japossuilogin:hover{
@@ -118,8 +101,39 @@
 
 }
 
+.google, .outlook, .facebook{
+
+    width: 15%;
+    height: 13%;
+    padding: 8px;
+    margin: 20px 0 0 10px;
+    font-size: 15px;
+    color: #680900;
+    border: none;
+
+}
 
 
+
+.google{
+
+    background-color: white;
+    border: none;
+    
+
+}
+
+.google-img, .facebook-img, .outlook-img{
+
+    width: 55%;
+
+}
+
+.avancar{
+
+    display: block;
+
+}
 
 /*pagina inicial html*/
 
